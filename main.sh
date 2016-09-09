@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-export _ANDROID_NDK=
+export _ANDROID_NDK=/opt/android-ndk-r12b
 
-. ./openssh.sh
+. ./openssl.sh
 . ./arm-linux-androideabi-4.9.ssh
