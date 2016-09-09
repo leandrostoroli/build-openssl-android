@@ -10,4 +10,4 @@ make all >> ../${OPENSSL_BUILD_LOG}
 
 # Installing
 echo "Installing..."
-sudo -E make install CC=$ANDROID_TOOLCHAIN/arm-linux-androideabi-gcc RANLIB=$ANDROID_TOOLCHAIN/arm-linux-androideabi-ranlib  >> ../${OPENSSL_BUILD_LOG}
+sudo -E make install CC=$ANDROID_TOOLCHAIN/prebuild/linux-x86_64/bin/arm-linux-androideabi-gcc RANLIB=$ANDROID_TOOLCHAIN/prebuild/linux-x86_64/bin/arm-linux-androideabi-ranlib  >> ../${OPENSSL_BUILD_LOG}
